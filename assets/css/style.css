@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --primary-color: rgb(102, 94, 173);
+    --primary-color-darker: rgb(18, 17, 29);
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form input, form label, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+form input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+    border-radius: 8px;
+}
+
+form input:focus {
+    outline: 3px solid var(--primary-color);
+}
+
+form button {
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50pxS;
+    cursor: pointer;
+    padding: 10px;
+}
+
+form button:hover {
+    background-color: var(--primary-color-darker);
+    padding: 10px;
+}
+
+.paragrafo-resultado, .paragrafo-invalido {
+    font-size: 18px;
+    font-weight: 700;
+    background: rgb(77, 240, 104);
+    padding: 10px;
+    color: black;
+
+}
+
+.paragrafo-invalido {
+    font-size: 18px;
+    font-weight: 700;
+    background: rgb(243, 42, 75);
+    padding: 10px;
+    color: blanchedalmond;
+}
